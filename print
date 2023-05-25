@@ -1,2 +1,13 @@
 # to print we use echo
 echo hello world
+# while printing if we need colors then the syntax: echo -e "\e[COLmMESSAGE\e[0m"
+# -e enable color option
+# \e[COLm - to enable certain colors
+# /e[om - to disable the color which is enabled above
+# COL stands for colors which are RED(31), GREEN(32), YELLOW(33), BLUE(34), MAGENTA(35), CYAN(36)
+echo -e "\e[31mhello world\e[0m"
+echo -e "\e[33mhello world\e[0m"
+echo -e "\e[35mhello world\e[0m"
+echo -e "\e[36mhello world\e[0m"
+echo -e "\e[34mhello world\e[0m"
+echo -e "\e[32mhello world\e[0m"
